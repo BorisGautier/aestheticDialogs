@@ -27,6 +27,7 @@ AestheticDialogs.showDialog(
         dialogType: DialogType.INFO,
         duration: 5000);
 ```
+The time is expressed in milliseconds and by default it is 3000ms.
 A more complete example can be found in the "example" folder of the Git repository.
 
 ## Types of Dialog

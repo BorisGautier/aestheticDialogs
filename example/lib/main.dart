@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:AestheticDialogs/AestheticDialogs.dart';
+import 'package:aesthetic_dialogs/aesthetic_dialogs.dart';
 
 void main() {
   runApp(MyApp());
