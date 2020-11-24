@@ -14,12 +14,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   void initState() {
     super.initState();
   }
-
 
   Future<void> buildDialog() async {
     AestheticDialogs.showDialog(
@@ -42,7 +40,10 @@ class _MyAppState extends State<MyApp> {
           title: const Text('AestheticDialogs Example Flutter'),
         ),
         body: Center(
-          child: RaisedButton(onPressed: buildDialog , child: Text("Open Dialog"),),
+          child: RaisedButton(
+            onPressed: buildDialog,
+            child: Text("Open Dialog"),
+          ),
         ),
       ),
     );
