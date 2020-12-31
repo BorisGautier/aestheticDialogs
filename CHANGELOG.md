@@ -1,3 +1,7 @@
+## [0.0.2] - January 01, 2021
+
+* New Release.
+
 ## [0.0.11] - Novembre 24, 2020
 
 * Fix Install Bug.

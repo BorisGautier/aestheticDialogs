@@ -126,7 +126,7 @@ class AestheticDialogs {
       'duration': duration,
     };
 
-    bool res = await _channel.invokeMethod('showDialog', params);
-    return res;
+    // bool res = await
+    return _channel.invokeMethod('showDialog', params);
   }
 }

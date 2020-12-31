@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:flutter/services.dart';
 import 'package:aesthetic_dialogs/aesthetic_dialogs.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -35,6 +34,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('AestheticDialogs Example Flutter'),
