@@ -8,7 +8,9 @@ This Flutter plugin allows you to display nice custom dialog boxes. It is only a
 
 ## Install
 Follow the instructions to integrate a package into your Flutter application.
-Make sure you also use the AppCompat themes.
+Make sure you also use the AppCompat themes :
+ - Download the [colors.xml](https://github.com/BorisGautier/aestheticDialogs/blob/master/example/android/app/src/main/res/values/colors.xml) file and paste it into your project: "/android/app/src/main/res/values/".
+ - Download the [styles.xml](https://github.com/BorisGautier/aestheticDialogs/blob/master/example/android/app/src/main/res/values/styles.xml) file and replace it into your project: "/android/app/src/main/res/values/".
 ### How to use it?
 
 ```dart

@@ -2,7 +2,7 @@
 
 * Add AndroidX.
 
-## [0.0.11+1] - January 01, 2021
+## [0.0.11+1] - December 31, 2020
 
 * New Release.
 
