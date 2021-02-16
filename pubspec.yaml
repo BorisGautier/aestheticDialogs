@@ -1,6 +1,6 @@
 name: aesthetic_dialogs
 description: This Flutter plugin allows you to display nice custom dialog boxes.
-version: 0.0.12
+version: 0.0.13
 homepage: https://github.com/BorisGautier/aestheticDialogs
 
 environment:
