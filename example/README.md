@@ -1,4 +1,4 @@
-# AestheticDialogs_example
+# aesthetic_dialogs_example
 
 Demonstrates how to use the AestheticDialogs plugin.
 
