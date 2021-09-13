@@ -6,7 +6,16 @@ enum DialogType { SUCCESS, ERROR, WARNING, INFO }
 
 enum DialogGravity { TOP, CENTER, BOTTOM }
 
-enum DialogStyle { RAINBOW, FLAT, CONNECTIFY, TOASTER, DRAKE, EMOJI, EMOTION }
+enum DialogStyle {
+  RAINBOW,
+  FLAT,
+  CONNECTIFY,
+  TOASTER,
+  DRAKE,
+  EMOJI,
+  EMOTION,
+  FLASH
+}
 
 enum DialogAnimation {
   DEFAULT,
@@ -113,6 +122,8 @@ class AestheticDialogs {
       style = "rainbow";
     } else if (dialogStyle == DialogStyle.TOASTER) {
       style = "toaster";
+    } else if (dialogStyle == DialogStyle.FLASH) {
+      style = "flash";
     }
 
     final Map<String, dynamic> params = <String, dynamic>{

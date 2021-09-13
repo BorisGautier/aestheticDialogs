@@ -26,8 +26,8 @@ class _MyAppState extends State<MyApp> {
         darkMode: false,
         dialogAnimation: DialogAnimation.IN_OUT,
         dialogGravity: DialogGravity.CENTER,
-        dialogStyle: DialogStyle.EMOJI,
-        dialogType: DialogType.INFO,
+        dialogStyle: DialogStyle.FLASH,
+        dialogType: DialogType.SUCCESS,
         duration: 3000);
   }
 
