@@ -1,3 +1,7 @@
+## [0.0.14+1] - September 13, 2021
+
+* Add Flash Dialog
+
 ## [0.0.14] - September 13, 2021
 
 * Fix Gradle bug
