@@ -1,6 +1,7 @@
-## [0.0.14+2] - September 13, 2021
+## [0.0.14+3] - September 13, 2021
 
 * Fix bugs
+* Update Readme
 
 ## [0.0.14+1] - September 13, 2021
 

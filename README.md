@@ -9,6 +9,19 @@ Android Version : [AestheticDialogs](https://github.com/gabriel-TheCode/Aestheti
 
 
 ## Install
+Kotlin version : minimum 1.3.40
+
+AestheticDialog use AppCompat Themes
+
+Add the dependency
+
+```gradle
+dependencies {
+	...
+	implementation 'androidx.appcompat:appcompat:1.2.0'
+}
+```
+
 Follow the instructions to integrate a package into your Flutter application.
 Make sure you also use the AppCompat themes :
  - Download the [colors.xml](https://github.com/BorisGautier/aestheticDialogs/blob/master/example/android/app/src/main/res/values/colors.xml) file and paste it into your project: "/android/app/src/main/res/values/".
