@@ -37,7 +37,8 @@ enum DialogAnimation {
 }
 
 class AestheticDialogs {
-  static const MethodChannel _channel = const MethodChannel('AestheticDialogs');
+  static const MethodChannel _channel =
+      const MethodChannel('aesthetic_dialogs');
 
   static Future<bool?> showDialog({
     required String title,

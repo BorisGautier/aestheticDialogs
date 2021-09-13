@@ -32,6 +32,7 @@ class MethodCallHandlerImpl(var activity: Activity) : MethodCallHandler {
                 mGravity = when (gravity) {
                     "top" -> Gravity.TOP
                     "center" -> Gravity.CENTER
+                    "bottom" -> Gravity.BOTTOM
                     else -> Gravity.BOTTOM
                 }
 
