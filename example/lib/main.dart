@@ -20,15 +20,15 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> buildDialog() async {
     AestheticDialogs.showDialog(
-        title: "Ma Boite",
-        message: "Bonjour",
+        title: "My Dialog",
+        message: "Hello!!!",
         cancelable: true,
         darkMode: false,
         dialogAnimation: DialogAnimation.IN_OUT,
         dialogGravity: DialogGravity.CENTER,
         dialogStyle: DialogStyle.EMOJI,
         dialogType: DialogType.INFO,
-        duration: 5000);
+        duration: 3000);
   }
 
   @override
@@ -37,10 +37,10 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('AestheticDialogs Example Flutter'),
+          title: const Text('AestheticDialogs Flutter'),
         ),
         body: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
             onPressed: buildDialog,
             child: Text("Open Dialog"),
           ),

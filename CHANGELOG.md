@@ -1,3 +1,9 @@
+## [0.0.14] - September 13, 2021
+
+* Fix Gradle bug
+* Support null safety
+* migrate to flutter 2
+
 ## [0.0.13] - February 16, 2021
 
 * Fix Gradle bug

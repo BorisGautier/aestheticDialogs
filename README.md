@@ -3,6 +3,8 @@
 AestheticDialogs is inspired by [Laravel Notify](https://github.com/mckenziearts/laravel-notify)
 This Flutter plugin allows you to display nice custom dialog boxes. It is only available on Android at the moment.
 
+Android Version : [AestheticDialogs](https://github.com/gabriel-TheCode/AestheticDialogs)
+
 ![6.jpg](6.jpg)
 
 
@@ -27,7 +29,7 @@ AestheticDialogs.showDialog(
         dialogGravity: DialogGravity.CENTER,
         dialogStyle: DialogStyle.EMOJI,
         dialogType: DialogType.INFO,
-        duration: 5000);
+        duration: 3000);
 ```
 The time is expressed in milliseconds and by default it is 3000ms.
 A more complete example can be found in the "example" folder of the Git repository.
@@ -111,4 +113,19 @@ A more complete example can be found in the "example" folder of the Git reposito
 </table>
 
 
+<a name="demo"></a>
+## Demo
+You can download the demo app on [PlayStore](https://play.google.com/store/apps/details?id=com.thecode.sample)
+
+<a name="contribute"></a>
+## Contribute
+
+You can contribute us by filing issues, bugs and PRs.
+
+### Contributing:
+- Open issue regarding proposed change.
+- Repo owner will contact you there.
+- If your proposed change is approved, Fork this repo and do changes.
+- Open PR against latest `dev` branch. Add nice description in PR.
+- You're done!
 

@@ -25,9 +25,9 @@ class MethodCallHandlerImpl(var activity: Activity) : MethodCallHandler {
                 var dialogStyle = call.argument<Any>("style").toString()
                 var duration = call.argument<Int>("duration")
                 val mGravity: Int
-                val mAnimation: Int
-                val mDialogType: String
-                val mDialogStyle: String
+                val mAnimation: DialogAnimation
+                val mDialogType: DialogType
+                val mDialogStyle: DialogStyle
 
                 mGravity = when (gravity) {
                     "top" -> Gravity.TOP

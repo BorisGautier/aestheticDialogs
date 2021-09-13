@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 enum DialogType { SUCCESS, ERROR, WARNING, INFO }
@@ -31,19 +30,18 @@ enum DialogAnimation {
 class AestheticDialogs {
   static const MethodChannel _channel = const MethodChannel('AestheticDialogs');
 
-  static Future<bool> showDialog({
-    @required String title,
-    @required String message,
-    @required bool cancelable,
-    @required bool darkMode,
+  static Future<bool?> showDialog({
+    required String title,
+    required String message,
+    required bool cancelable,
+    required bool darkMode,
     int duration = 3000,
-    DialogStyle dialogStyle,
-    DialogAnimation dialogAnimation,
-    DialogGravity dialogGravity,
-    DialogType dialogType,
-    // Function(bool) didTap,
+    DialogStyle? dialogStyle,
+    DialogAnimation? dialogAnimation,
+    DialogGravity? dialogGravity,
+    DialogType? dialogType,
   }) async {
-    // this.didTap = didTap;
+    // Choose dialog position
     String gravity = "center";
     if (dialogGravity == DialogGravity.CENTER) {
       gravity = "center";
@@ -53,6 +51,7 @@ class AestheticDialogs {
       gravity = "bottom";
     }
 
+    //choose dialog animation
     String animation = "shrink";
     if (dialogAnimation == DialogAnimation.CARD) {
       animation = "card";
@@ -88,6 +87,7 @@ class AestheticDialogs {
       animation = "zoom";
     }
 
+    // choose dialog type
     String type = "success";
     if (dialogType == DialogType.SUCCESS) {
       type = "success";
@@ -99,6 +99,7 @@ class AestheticDialogs {
       type = "error";
     }
 
+    //choose dialog style
     String style = "flat";
     if (dialogStyle == DialogStyle.FLAT) {
       style = "flat";
