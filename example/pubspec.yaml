@@ -1,4 +1,4 @@
-name: AestheticDialogs_example
+name: aesthetic_dialogs_example
 description: Demonstrates how to use the AestheticDialogs plugin.
 
 # The following line prevents the package from being accidentally published to
@@ -10,6 +10,8 @@ environment:
 
 dependencies:
   flutter:
+    sdk: flutter
+  flutter_web_plugins:
     sdk: flutter
 
   aesthetic_dialogs:

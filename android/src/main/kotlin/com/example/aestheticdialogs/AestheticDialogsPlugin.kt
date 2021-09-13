@@ -41,7 +41,7 @@ class AestheticDialogsPlugin: FlutterPlugin,ActivityAware {
     }
 
     fun setupChannel(messenger: BinaryMessenger, appCompatActivity: Activity) {
-        channel = MethodChannel(messenger, "AestheticDialogs")
+        channel = MethodChannel(messenger, "aesthetic_dialogs")
         val handler = MethodCallHandlerImpl(appCompatActivity)
         channel?.setMethodCallHandler(handler)
     }

@@ -1,3 +1,7 @@
+## [0.0.14+2] - September 13, 2021
+
+* Fix bugs
+
 ## [0.0.14+1] - September 13, 2021
 
 * Add Flash Dialog

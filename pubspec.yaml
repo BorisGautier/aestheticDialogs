@@ -1,6 +1,6 @@
 name: aesthetic_dialogs
 description: This Flutter plugin allows you to display nice custom dialog boxes.
-version: 0.0.14+1
+version: 0.0.14+2
 homepage: https://github.com/BorisGautier/aestheticDialogs
 
 environment:
@@ -13,6 +13,8 @@ dependencies:
 
 dev_dependencies:
   flutter_test:
+    sdk: flutter
+  flutter_web_plugins:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the
@@ -33,7 +35,7 @@ flutter:
         pluginClass: AestheticDialogsPlugin
       web:
         pluginClass: AestheticDialogsPlugin
-        fileName: aesthetic_dialogs.dart
+        fileName: aesthetic_dialogs_web.dart
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
