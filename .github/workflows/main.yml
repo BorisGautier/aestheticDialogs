@@ -43,18 +43,3 @@ jobs:
 
       # Run widget tests for our flutter project.
       # - run: flutter test
-
-      # Build apk.
-      - run: flutter build appbundle
-
-      #  - name: Create a Release APK
-      #    uses: ncipollo/release-action@v1
-      #   with:
-      #     artifacts: "build/app/outputs/apk/debug/*.apk"
-      #     token: ${{ secrets.TOKEN }}
-
-      # Upload generated apk to the artifacts.
-      - uses: actions/upload-artifact@v1
-        with:
-          name: release-aab
-          path: example/build/app/outputs/bundle/release/app-release.aab
