@@ -1,4 +1,15 @@
-include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    # allow having TODOs in the code
+    todo: ignore
+  exclude:
+    - lib/generated
+    - lib/l10n
 
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+linter:
+  rules:
+    # STYLE
+    - camel_case_types
+    - camel_case_extensions
+    - implementation_imports
+    - prefer_relative_imports

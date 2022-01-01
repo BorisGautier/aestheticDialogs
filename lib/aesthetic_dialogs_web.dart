@@ -5,7 +5,7 @@ import 'dart:async';
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html show window;
 
-import 'package:aesthetic_dialogs/aesthetic_dialogs.dart';
+import 'aesthetic_dialogs.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
