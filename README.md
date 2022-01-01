@@ -1,4 +1,4 @@
-# AestheticDialogs
+# AestheticDialogs v0.0.15
 
 AestheticDialogs is inspired by [Laravel Notify](https://github.com/mckenziearts/laravel-notify)
 This Flutter plugin allows you to display nice custom dialog boxes. It is only available on Android at the moment.
