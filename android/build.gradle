@@ -1,4 +1,4 @@
-group 'com.example.aestheticdialogs'
+group 'cm.tbg.aestheticdialogs'
 version '1.0-SNAPSHOT'
 
 buildscript {

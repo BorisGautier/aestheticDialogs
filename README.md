@@ -5,10 +5,10 @@ This Flutter plugin allows you to display nice custom dialog boxes. It is only a
 
 Android Version : [AestheticDialogs](https://github.com/gabriel-TheCode/AestheticDialogs)
 
-![6.jpg](6.jpg)
-
+![screen.png](screen.png)
 
 ## Install
+
 Kotlin version : minimum 1.3.40
 
 AestheticDialog use AppCompat Themes
@@ -24,8 +24,10 @@ dependencies {
 
 Follow the instructions to integrate a package into your Flutter application.
 Make sure you also use the AppCompat themes :
- - Download the [colors.xml](https://github.com/BorisGautier/aestheticDialogs/blob/master/example/android/app/src/main/res/values/colors.xml) file and paste it into your project: "/android/app/src/main/res/values/".
- - Download the [styles.xml](https://github.com/BorisGautier/aestheticDialogs/blob/master/example/android/app/src/main/res/values/styles.xml) file and replace it into your project: "/android/app/src/main/res/values/".
+
+- Download the [colors.xml](https://github.com/BorisGautier/aestheticDialogs/blob/master/example/android/app/src/main/res/values/colors.xml) file and paste it into your project: "/android/app/src/main/res/values/".
+- Download the [styles.xml](https://github.com/BorisGautier/aestheticDialogs/blob/master/example/android/app/src/main/res/values/styles.xml) file and replace it into your project: "/android/app/src/main/res/values/".
+
 ### How to use it?
 
 ```dart
@@ -34,8 +36,8 @@ import 'package:AestheticDialogs/AestheticDialogs.dart';
 ...
 
 AestheticDialogs.showDialog(
-        title: "Ma Boite",
-        message: "Bonjour",
+        title: "My Dialog",
+        message: "Hello!!!",
         cancelable: true,
         darkMode: false,
         dialogAnimation: DialogAnimation.IN_OUT,
@@ -44,10 +46,12 @@ AestheticDialogs.showDialog(
         dialogType: DialogType.INFO,
         duration: 3000);
 ```
+
 The time is expressed in milliseconds and by default it is 3000ms.
 A more complete example can be found in the "example" folder of the Git repository.
 
 ## Types of Dialog
+
 **AestheticDialog** At this moment, library provides eight types of dialog i.e.
 
 <table style="width:100%">
@@ -85,7 +89,9 @@ A more complete example can be found in the "example" folder of the Git reposito
 </table>
 
 <a name="dark"></a>
+
 ## Dark Mode
+
 **AestheticDialog** Also provides Dark Theme for some dialogs i.e.
 
 <table style="width:100%">
@@ -125,20 +131,22 @@ A more complete example can be found in the "example" folder of the Git reposito
   </tr>
 </table>
 
-
 <a name="demo"></a>
+
 ## Demo
+
 You can download the demo app on [PlayStore](https://play.google.com/store/apps/details?id=com.thecode.sample)
 
 <a name="contribute"></a>
+
 ## Contribute
 
 You can contribute us by filing issues, bugs and PRs.
 
 ### Contributing:
+
 - Open issue regarding proposed change.
 - Repo owner will contact you there.
 - If your proposed change is approved, Fork this repo and do changes.
 - Open PR against latest `dev` branch. Add nice description in PR.
 - You're done!
-

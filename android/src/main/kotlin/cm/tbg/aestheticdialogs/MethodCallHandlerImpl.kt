@@ -1,4 +1,4 @@
-package com.example.aestheticdialogs
+package cm.tbg.aestheticdialogs
 
 import android.app.Activity
 import android.view.Gravity
